@@ -31,6 +31,33 @@ This repo is now set up to use:
 
 ---
 
+### 🚀 New Machine Setup (One-Click)
+
+If you are setting this up on a new machine (Windows with WSL2 or Linux), follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/adhimiw/Food-sustainability-smc.git
+   cd Food-sustainability-smc
+   ```
+
+2. **Run the bootstrap script:**
+   ```bash
+   chmod +x scripts/bootstrap.sh
+   ./scripts/bootstrap.sh
+   ```
+   *This script will install `uv`, setup Docker, download the Metabase driver, seed the database, and launch the entire stack.*
+
+3. **Access the tools:**
+   - **Main Dashboard:** [http://localhost:8501](http://localhost:8501)
+   - **Metabase BI:** [http://localhost:3000](http://localhost:3000)
+   - **API Docs:** [http://localhost:8000/docs](http://localhost:8000/docs)
+
+4. **Mistral AI Integration:**
+   Make sure to update the `MISTRAL_API_KEY` in your `.env` file after the bootstrap script runs.
+
+---
+
 ## 🤖 Mistral setup (default: mistral-large-2512)
 
 Environment variables:
