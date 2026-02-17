@@ -1,0 +1,16 @@
+store_id,store_name,city,store_type,capacity_kg,latitude,longitude,total_sold_kg,total_wasted_kg,total_revenue,total_waste_cost,waste_rate_pct,active_days,products_stocked
+4,SuperSave East,Metro City,retailer,6000.0,40.7282,-73.7949,2249202.0,257352.9,7142810.22,459493.99,9.93,731,148
+1,FreshMart Downtown,Metro City,retailer,5000.0,40.7128,-74.006,1899647.5,214667.1,6048790.21,384882.02,9.81,731,148
+8,Harbor Fresh,Harbor Town,retailer,5000.0,37.7749,-122.4194,1836726.0,211384.8,5852662.53,377096.44,9.98,731,148
+5,FreshMart Valley,Green Valley,retailer,4500.0,34.0522,-118.2437,1665338.3,192056.0,5310401.24,341627.83,10.0,731,148
+9,Seaside Market,Harbor Town,retailer,4200.0,37.8044,-122.2712,1527876.4,175610.3,4876609.83,314188.36,9.97,731,148
+2,FreshMart Uptown,Metro City,retailer,4000.0,40.7831,-73.9712,1457104.5,167387.2,4630891.53,297974.19,9.96,731,148
+6,Nature's Best,Green Valley,retailer,3800.0,34.0195,-118.4912,1393801.1,160594.0,4442943.25,286451.58,10.0,731,148
+10,Dock Street Grocery,Harbor Town,retailer,3500.0,37.7946,-122.3999,1301545.1,149526.1,4164162.21,267175.63,9.97,731,148
+3,GreenGrocer Central,Metro City,retailer,3500.0,40.7488,-73.9856,1303179.1,149523.2,4132139.71,266301.02,9.95,731,148
+7,Valley Organics,Green Valley,retailer,3000.0,34.0689,-118.4452,1088522.7,125726.8,3485206.08,224775.25,10.02,731,148
+11,Metro Food Bank,Metro City,food_bank,8000.0,40.7549,-73.984,,,,,,0,0
+12,Valley Community Kitchen,Green Valley,food_bank,6000.0,34.0407,-118.2468,,,,,,0,0
+13,Harbor Soup Kitchen,Harbor Town,food_bank,5000.0,37.7849,-122.4094,,,,,,0,0
+14,Metro Compost Hub,Metro City,compost_facility,15000.0,40.6892,-74.0445,,,,,,0,0
+15,Valley Biogas Plant,Green Valley,compost_facility,12000.0,34.09,-118.36,,,,,,0,0

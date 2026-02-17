@@ -1,0 +1,149 @@
+product_id,name,category,subcategory,shelf_life_days,avg_daily_demand,unit_cost,unit_price,carbon_footprint_kg,storage_temp_min,storage_temp_max,is_perishable
+1,Bananas,Fruits,Tropical,7,120.0,0.8,1.5,0.9,2.0,8.0,1
+2,Apples - Red,Fruits,Pome,21,90.0,1.2,2.0,0.4,2.0,8.0,1
+3,Apples - Green,Fruits,Pome,21,60.0,1.3,2.1,0.4,2.0,8.0,1
+4,Oranges,Fruits,Citrus,14,85.0,1.0,1.8,0.5,2.0,8.0,1
+5,Strawberries,Fruits,Berries,5,50.0,2.5,4.5,1.1,2.0,8.0,1
+6,Blueberries,Fruits,Berries,7,35.0,3.0,5.5,0.8,2.0,8.0,1
+7,Grapes - Red,Fruits,Vine,10,55.0,2.0,3.5,0.7,2.0,8.0,1
+8,Grapes - Green,Fruits,Vine,10,45.0,2.1,3.6,0.7,2.0,8.0,1
+9,Watermelon,Fruits,Melon,14,30.0,3.0,5.0,0.3,2.0,8.0,1
+10,Mangoes,Fruits,Tropical,8,40.0,2.5,4.0,1.5,2.0,8.0,1
+11,Pineapple,Fruits,Tropical,7,25.0,2.0,3.5,0.6,2.0,8.0,1
+12,Avocados,Fruits,Tropical,5,70.0,1.5,3.0,2.5,2.0,8.0,1
+13,Peaches,Fruits,Stone,7,35.0,1.8,3.2,0.5,2.0,8.0,1
+14,Pears,Fruits,Pome,14,40.0,1.3,2.2,0.3,2.0,8.0,1
+15,Lemons,Fruits,Citrus,21,50.0,0.8,1.5,0.3,2.0,8.0,1
+16,Limes,Fruits,Citrus,14,30.0,0.9,1.6,0.4,2.0,8.0,1
+17,Kiwi,Fruits,Exotic,14,25.0,1.5,2.8,1.0,2.0,8.0,1
+18,Pomegranate,Fruits,Exotic,21,20.0,2.5,4.5,0.8,2.0,8.0,1
+19,Cherries,Fruits,Stone,5,20.0,4.0,7.0,0.6,2.0,8.0,1
+20,Raspberries,Fruits,Berries,4,25.0,3.5,6.0,1.0,2.0,8.0,1
+21,Tomatoes,Vegetables,Nightshade,10,100.0,1.0,2.0,1.4,2.0,8.0,1
+22,Potatoes,Vegetables,Root,30,130.0,0.6,1.2,0.5,2.0,8.0,1
+23,Onions,Vegetables,Allium,30,110.0,0.5,1.0,0.3,2.0,8.0,1
+24,Carrots,Vegetables,Root,21,80.0,0.7,1.3,0.4,2.0,8.0,1
+25,Broccoli,Vegetables,Cruciferous,7,55.0,1.5,2.8,0.9,2.0,8.0,1
+26,Cauliflower,Vegetables,Cruciferous,7,40.0,1.6,2.9,0.8,2.0,8.0,1
+27,Spinach,Vegetables,Leafy,5,60.0,1.2,2.5,0.6,2.0,8.0,1
+28,Lettuce - Iceberg,Vegetables,Leafy,7,75.0,0.8,1.8,0.5,2.0,8.0,1
+29,Lettuce - Romaine,Vegetables,Leafy,7,50.0,1.0,2.0,0.5,2.0,8.0,1
+30,Bell Peppers - Red,Vegetables,Nightshade,10,45.0,1.5,2.8,0.9,2.0,8.0,1
+31,Bell Peppers - Green,Vegetables,Nightshade,10,50.0,1.2,2.2,0.8,2.0,8.0,1
+32,Cucumbers,Vegetables,Gourd,7,65.0,0.6,1.2,0.4,2.0,8.0,1
+33,Zucchini,Vegetables,Gourd,7,35.0,1.0,2.0,0.3,2.0,8.0,1
+34,Mushrooms,Vegetables,Fungi,5,40.0,2.0,3.5,0.6,2.0,8.0,1
+35,Sweet Corn,Vegetables,Grain,5,50.0,0.8,1.5,1.0,2.0,8.0,1
+36,Green Beans,Vegetables,Legume,7,35.0,1.2,2.2,0.5,2.0,8.0,1
+37,Celery,Vegetables,Stalk,14,30.0,0.7,1.3,0.3,2.0,8.0,1
+38,Cabbage,Vegetables,Cruciferous,14,45.0,0.5,1.0,0.2,2.0,8.0,1
+39,Eggplant,Vegetables,Nightshade,7,25.0,1.3,2.5,0.7,2.0,8.0,1
+40,Garlic,Vegetables,Allium,60,70.0,1.5,3.0,0.5,2.0,8.0,1
+41,Ginger,Vegetables,Root,30,25.0,2.0,4.0,0.7,2.0,8.0,1
+42,Asparagus,Vegetables,Stalk,5,20.0,3.0,5.5,0.9,2.0,8.0,1
+43,Peas,Vegetables,Legume,5,30.0,1.5,2.8,0.4,2.0,8.0,1
+44,Radishes,Vegetables,Root,10,20.0,0.8,1.5,0.2,2.0,8.0,1
+45,Sweet Potatoes,Vegetables,Root,21,45.0,1.0,2.0,0.5,2.0,8.0,1
+46,Whole Milk 1L,Dairy,Milk,7,150.0,1.0,1.8,3.2,2.0,8.0,1
+47,Skim Milk 1L,Dairy,Milk,7,80.0,0.9,1.6,2.8,2.0,8.0,1
+48,Cheddar Cheese 200g,Dairy,Cheese,30,60.0,2.5,4.5,8.5,2.0,8.0,1
+49,Mozzarella 200g,Dairy,Cheese,14,55.0,2.0,3.8,7.0,2.0,8.0,1
+50,Greek Yogurt 500g,Dairy,Yogurt,14,70.0,1.5,3.0,2.5,2.0,8.0,1
+51,Plain Yogurt 500g,Dairy,Yogurt,14,50.0,1.2,2.2,2.0,2.0,8.0,1
+52,Butter 250g,Dairy,Butter,30,55.0,2.0,3.5,9.0,2.0,8.0,1
+53,Cream Cheese 200g,Dairy,Cheese,14,30.0,1.8,3.2,5.0,2.0,8.0,1
+54,Heavy Cream 500ml,Dairy,Cream,10,25.0,2.5,4.0,4.0,2.0,8.0,1
+55,Eggs - Dozen,Dairy,Eggs,21,100.0,2.0,3.5,4.8,2.0,8.0,1
+56,Cottage Cheese 250g,Dairy,Cheese,10,20.0,1.5,2.8,3.5,2.0,8.0,1
+57,Sour Cream 200ml,Dairy,Cream,14,25.0,1.0,2.0,3.0,2.0,8.0,1
+58,Chicken Breast 500g,Meat,Poultry,3,80.0,3.5,6.5,6.9,2.0,8.0,1
+59,Chicken Thighs 500g,Meat,Poultry,3,60.0,2.8,5.0,6.9,2.0,8.0,1
+60,Ground Beef 500g,Meat,Red Meat,3,65.0,4.0,7.5,27.0,2.0,8.0,1
+61,Beef Steak 300g,Meat,Red Meat,3,35.0,6.0,12.0,27.0,2.0,8.0,1
+62,Pork Chops 500g,Meat,Pork,3,40.0,3.0,5.5,12.1,2.0,8.0,1
+63,Ground Pork 500g,Meat,Pork,3,35.0,2.8,5.0,12.1,2.0,8.0,1
+64,Bacon 250g,Meat,Pork,7,50.0,3.5,6.0,12.1,2.0,8.0,1
+65,Sausages 500g,Meat,Processed,7,45.0,2.5,4.5,8.0,2.0,8.0,1
+66,Turkey Breast 500g,Meat,Poultry,3,30.0,4.0,7.0,5.5,2.0,8.0,1
+67,Lamb Chops 500g,Meat,Red Meat,3,20.0,7.0,13.0,39.2,2.0,8.0,1
+68,Ham Sliced 200g,Meat,Processed,10,40.0,2.0,3.5,8.0,2.0,8.0,1
+69,Salami 150g,Meat,Processed,21,25.0,2.5,4.5,8.0,2.0,8.0,1
+70,Salmon Fillet 300g,Seafood,Fish,2,35.0,5.0,9.0,11.9,2.0,8.0,1
+71,Shrimp 500g,Seafood,Shellfish,2,25.0,6.0,11.0,18.0,2.0,8.0,1
+72,Cod Fillet 300g,Seafood,Fish,2,20.0,4.0,7.5,5.4,2.0,8.0,1
+73,Tuna Steak 300g,Seafood,Fish,2,15.0,5.5,10.0,6.1,2.0,8.0,1
+74,Tilapia Fillet 300g,Seafood,Fish,2,25.0,3.0,5.5,4.0,2.0,8.0,1
+75,Canned Tuna 170g,Seafood,Canned,730,40.0,1.5,2.5,6.1,-18.0,-10.0,0
+76,Canned Salmon 200g,Seafood,Canned,730,20.0,2.0,3.5,5.0,-18.0,-10.0,0
+77,White Bread Loaf,Bakery,Bread,5,100.0,1.0,2.0,0.8,2.0,8.0,1
+78,Whole Wheat Bread,Bakery,Bread,5,70.0,1.2,2.5,0.7,2.0,8.0,1
+79,Sourdough Bread,Bakery,Bread,5,40.0,2.0,3.5,0.6,2.0,8.0,1
+80,Croissants 4pk,Bakery,Pastry,3,35.0,2.5,4.5,1.1,2.0,8.0,1
+81,Bagels 6pk,Bakery,Bread,5,30.0,2.0,3.5,0.9,2.0,8.0,1
+82,Muffins 4pk,Bakery,Pastry,3,25.0,2.5,4.0,1.0,2.0,8.0,1
+83,Burger Buns 8pk,Bakery,Bread,5,40.0,1.5,2.5,0.8,2.0,8.0,1
+84,Tortillas 10pk,Bakery,Flatbread,14,45.0,1.5,2.8,0.7,2.0,8.0,1
+85,Donuts 6pk,Bakery,Pastry,2,30.0,2.5,4.5,1.2,2.0,8.0,1
+86,Cake - Chocolate,Bakery,Cake,5,15.0,5.0,9.0,2.0,2.0,8.0,1
+87,Orange Juice 1L,Beverages,Juice,10,60.0,1.5,3.0,0.7,2.0,8.0,1
+88,Apple Juice 1L,Beverages,Juice,10,45.0,1.2,2.5,0.5,2.0,8.0,1
+89,Almond Milk 1L,Beverages,Plant Milk,30,35.0,2.0,3.5,0.7,2.0,8.0,1
+90,Oat Milk 1L,Beverages,Plant Milk,14,40.0,1.8,3.0,0.3,2.0,8.0,1
+91,Sparkling Water 1L,Beverages,Water,365,50.0,0.5,1.0,0.2,-18.0,-10.0,0
+92,Cola 2L,Beverages,Soda,180,55.0,0.8,1.5,0.4,-18.0,-10.0,0
+93,Green Tea 20pk,Beverages,Tea,365,25.0,2.0,3.5,0.1,-18.0,-10.0,0
+94,Coffee Beans 500g,Beverages,Coffee,180,30.0,5.0,9.0,8.0,-18.0,-10.0,0
+95,White Rice 1kg,Pantry,Grains,365,60.0,1.2,2.0,2.7,-18.0,-10.0,0
+96,Brown Rice 1kg,Pantry,Grains,180,35.0,1.5,2.5,2.5,-18.0,-10.0,0
+97,Pasta - Spaghetti,Pantry,Pasta,730,70.0,1.0,1.8,1.2,-18.0,-10.0,0
+98,Pasta - Penne,Pantry,Pasta,730,50.0,1.0,1.8,1.2,-18.0,-10.0,0
+99,Canned Tomatoes 400g,Pantry,Canned,730,65.0,0.8,1.5,0.6,-18.0,-10.0,0
+100,Olive Oil 500ml,Pantry,Oil,365,30.0,3.5,6.0,3.5,-18.0,-10.0,0
+101,Vegetable Oil 1L,Pantry,Oil,365,40.0,1.5,2.5,2.0,-18.0,-10.0,0
+102,All-Purpose Flour 1kg,Pantry,Baking,365,45.0,0.8,1.5,0.7,-18.0,-10.0,0
+103,Sugar 1kg,Pantry,Baking,730,40.0,0.7,1.3,0.6,-18.0,-10.0,0
+104,Salt 500g,Pantry,Seasoning,1825,35.0,0.3,0.8,0.1,-18.0,-10.0,0
+105,Black Pepper 100g,Pantry,Seasoning,730,15.0,1.5,3.0,0.8,-18.0,-10.0,0
+106,Peanut Butter 500g,Pantry,Spreads,180,30.0,2.5,4.0,2.5,-18.0,-10.0,0
+107,Honey 500g,Pantry,Spreads,730,20.0,3.5,6.0,0.5,-18.0,-10.0,0
+108,Breakfast Cereal 500g,Pantry,Cereal,180,50.0,2.5,4.0,1.5,-18.0,-10.0,0
+109,Oats 1kg,Pantry,Cereal,365,35.0,1.5,2.5,0.5,-18.0,-10.0,0
+110,Canned Beans 400g,Pantry,Canned,730,45.0,0.8,1.5,0.4,-18.0,-10.0,0
+111,Lentils 500g,Pantry,Legumes,365,25.0,1.0,2.0,0.9,-18.0,-10.0,0
+112,Chickpeas 400g,Pantry,Canned,730,30.0,0.9,1.6,0.4,-18.0,-10.0,0
+113,Soy Sauce 250ml,Pantry,Condiment,365,20.0,1.5,2.5,0.8,-18.0,-10.0,0
+114,Ketchup 500ml,Pantry,Condiment,180,35.0,1.0,2.0,1.5,-18.0,-10.0,0
+115,Mustard 250ml,Pantry,Condiment,365,20.0,1.0,1.8,0.6,-18.0,-10.0,0
+116,Mayonnaise 500ml,Pantry,Condiment,90,30.0,1.5,2.5,2.0,2.0,8.0,1
+117,Pasta Sauce 500ml,Pantry,Sauce,365,40.0,1.5,2.8,0.9,-18.0,-10.0,0
+118,Coconut Milk 400ml,Pantry,Canned,365,20.0,1.2,2.2,1.0,-18.0,-10.0,0
+119,Frozen Pizza,Frozen,Prepared,180,40.0,3.0,5.5,2.5,-18.0,-10.0,0
+120,Frozen Vegetables 500g,Frozen,Vegetables,365,45.0,1.5,2.5,0.8,-18.0,-10.0,0
+121,Ice Cream 1L,Frozen,Dessert,180,35.0,3.0,5.0,3.5,-18.0,-10.0,0
+122,Frozen Berries 500g,Frozen,Fruit,365,25.0,2.5,4.5,0.6,-18.0,-10.0,0
+123,Frozen Fish Sticks 500g,Frozen,Seafood,180,20.0,2.5,4.0,5.0,-18.0,-10.0,0
+124,Frozen French Fries 1kg,Frozen,Prepared,365,50.0,1.5,2.5,1.5,-18.0,-10.0,0
+125,Frozen Chicken Nuggets,Frozen,Prepared,180,35.0,3.0,5.0,5.5,-18.0,-10.0,0
+126,Potato Chips 200g,Snacks,Chips,120,50.0,1.5,3.0,2.2,-18.0,-10.0,0
+127,Tortilla Chips 300g,Snacks,Chips,120,30.0,2.0,3.5,2.0,-18.0,-10.0,0
+128,Mixed Nuts 250g,Snacks,Nuts,180,25.0,3.5,6.0,1.5,-18.0,-10.0,0
+129,Granola Bars 6pk,Snacks,Bars,180,35.0,2.0,3.5,1.0,-18.0,-10.0,0
+130,Dark Chocolate 100g,Snacks,Chocolate,365,30.0,2.0,3.5,3.5,-18.0,-10.0,0
+131,Milk Chocolate 100g,Snacks,Chocolate,365,40.0,1.5,2.5,3.5,-18.0,-10.0,0
+132,Crackers 200g,Snacks,Crackers,180,30.0,1.5,2.5,0.8,-18.0,-10.0,0
+133,Popcorn 300g,Snacks,Popcorn,120,20.0,1.5,2.5,0.5,-18.0,-10.0,0
+134,Hummus 300g,Deli,Dips,14,30.0,1.5,3.0,0.8,2.0,8.0,1
+135,Guacamole 250g,Deli,Dips,5,20.0,2.5,4.5,1.5,2.0,8.0,1
+136,Fresh Pasta 400g,Deli,Prepared,5,25.0,2.5,4.5,1.0,2.0,8.0,1
+137,Salad Mix 300g,Deli,Salad,5,55.0,2.0,3.5,0.5,2.0,8.0,1
+138,Coleslaw 300g,Deli,Salad,5,20.0,1.5,2.8,0.4,2.0,8.0,1
+139,Rotisserie Chicken,Deli,Prepared,3,25.0,4.0,8.0,6.9,2.0,8.0,1
+140,Fresh Soup 500ml,Deli,Prepared,5,20.0,2.5,4.5,1.5,2.0,8.0,1
+141,Sushi 8pc Pack,Deli,Prepared,1,15.0,4.0,8.0,3.0,2.0,8.0,1
+142,Baby Food Pouch,Baby,Food,180,15.0,1.5,2.5,1.0,-18.0,-10.0,0
+143,Infant Formula 400g,Baby,Formula,365,10.0,12.0,18.0,3.0,-18.0,-10.0,0
+144,Fresh Herbs - Basil,Vegetables,Herbs,5,20.0,1.5,3.0,0.3,2.0,8.0,1
+145,Fresh Herbs - Cilantro,Vegetables,Herbs,5,18.0,1.0,2.0,0.2,2.0,8.0,1
+146,Fresh Herbs - Parsley,Vegetables,Herbs,7,15.0,1.0,2.0,0.2,2.0,8.0,1
+147,Tofu 400g,Deli,Plant Protein,10,25.0,1.5,2.5,2.0,2.0,8.0,1
+148,Tempeh 300g,Deli,Plant Protein,10,12.0,2.0,3.5,1.0,2.0,8.0,1

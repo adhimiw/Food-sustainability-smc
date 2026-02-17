@@ -1,0 +1,176 @@
+date,event_name,event_type,city,impact_multiplier,affected_categories,total_sold_kg,total_wasted_kg,revenue,products_affected
+2024-01-01,New Year's Day,holiday,Metro City,1.3915841636561157,"Beverages,Snacks,Meat",1271.0,158.7,6207.3,24
+2024-01-01,New Year's Day,holiday,Green Valley,1.5811724489797458,"Beverages,Snacks,Meat",617.2,48.7,2957.5,17
+2024-01-01,New Year's Day,holiday,Harbor Town,1.4984198705008793,"Beverages,Snacks,Meat",1421.4,143.5,6562.65,24
+2024-01-17,Spring Break,seasonal,Metro City,1.0784980739845933,"Snacks,Beverages,Frozen",1245.0,59.6,4577.6,21
+2024-01-21,College Football Game,sports,Harbor Town,1.3457260024309745,"Snacks,Beverages,Frozen",793.7,42.0,2809.25,12
+2024-02-01,Marathon Weekend,sports,Metro City,1.379813816354446,"Beverages,Fruits,Snacks",2389.5,253.4,7110.86,31
+2024-02-11,Super Bowl Sunday,sports,Metro City,1.812147607930699,"Snacks,Beverages,Frozen,Deli",3551.0,187.2,12289.77,30
+2024-02-11,Super Bowl Sunday,sports,Green Valley,1.731097402368222,"Snacks,Beverages,Frozen,Deli",2013.1,136.1,7364.69,28
+2024-02-11,Super Bowl Sunday,sports,Harbor Town,1.765225859051251,"Snacks,Beverages,Frozen,Deli",2463.7,149.7,9493.61,27
+2024-02-14,Valentine's Day,holiday,Metro City,1.411211398196995,"Bakery,Snacks,Beverages",1769.7,146.7,5672.74,20
+2024-02-14,Valentine's Day,holiday,Green Valley,1.375010338419512,"Bakery,Snacks,Beverages",924.8,81.3,3019.51,16
+2024-02-14,Valentine's Day,holiday,Harbor Town,1.3080750499321163,"Bakery,Snacks,Beverages",1025.2,96.1,3106.62,18
+2024-02-15,Restaurant Week,local_event,Metro City,0.7388747018291105,"Meat,Seafood,Vegetables",2304.4,347.8,6360.86,38
+2024-03-09,Cold Snap,weather_event,Harbor Town,1.4262728672610323,"Pantry,Dairy,Bakery",3768.2,429.1,10018.22,30
+2024-03-17,St. Patrick's Day,holiday,Metro City,1.1081875092325746,"Beverages,Snacks",1323.0,46.8,4102.8,14
+2024-03-17,St. Patrick's Day,holiday,Green Valley,1.160483928318542,"Beverages,Snacks",738.0,39.7,2312.15,13
+2024-03-17,St. Patrick's Day,holiday,Harbor Town,1.3034074789304675,"Beverages,Snacks",897.8,66.1,2594.15,12
+2024-03-26,Local Food Festival,local_event,Harbor Town,1.5965720142415176,"Fruits,Vegetables,Deli,Bakery",3984.1,642.4,11290.26,45
+2024-03-31,Easter,holiday,Metro City,1.33997347976325,"Bakery,Meat,Dairy,Vegetables",7745.1,1022.9,23332.71,52
+2024-03-31,Easter,holiday,Green Valley,1.4195824410583724,"Bakery,Meat,Dairy,Vegetables",4766.3,725.1,14132.2,43
+2024-03-31,Easter,holiday,Harbor Town,1.4090382565683475,"Bakery,Meat,Dairy,Vegetables",5489.1,855.1,16963.21,46
+2024-04-12,Summer Concert Series,local_event,Green Valley,1.1280397052323166,"Beverages,Snacks",751.0,52.6,2212.35,12
+2024-04-14,Back to School,seasonal,Harbor Town,1.3763668494962495,"Pantry,Snacks,Bakery,Dairy",3869.9,213.4,11348.96,46
+2024-04-16,Neighborhood Block Party,local_event,Metro City,1.489129653208056,"Snacks,Beverages,Bakery,Meat",3295.2,465.9,14307.09,33
+2024-04-17,College Football Game,sports,Harbor Town,1.2498508021396986,"Snacks,Beverages,Frozen",890.0,43.2,3044.15,18
+2024-04-21,College Football Game,sports,Green Valley,1.452446051993054,"Snacks,Beverages,Frozen",1612.6,49.3,5137.55,16
+2024-04-26,Heat Wave Alert,weather_event,Green Valley,1.5279495715033264,"Beverages,Frozen,Fruits",3114.6,337.3,9668.36,29
+2024-05-04,College Football Game,sports,Harbor Town,1.3015592218089886,"Snacks,Beverages,Frozen",1097.0,59.3,3794.45,14
+2024-05-12,Mother's Day,holiday,Metro City,1.3669574384905463,"Bakery,Fruits,Beverages",4910.0,727.6,16438.25,33
+2024-05-12,Mother's Day,holiday,Green Valley,1.281832131448407,"Bakery,Fruits,Beverages",2874.8,340.7,8231.72,28
+2024-05-12,Mother's Day,holiday,Harbor Town,1.3840008375365194,"Bakery,Fruits,Beverages",3678.4,515.7,11307.51,29
+2024-05-13,Heat Wave Alert,weather_event,Metro City,1.6080996361243027,"Beverages,Frozen,Fruits",2993.1,359.6,9529.06,26
+2024-05-17,Charity Food Drive,local_event,Harbor Town,0.9038062967278755,"Pantry,Canned",1176.7,11.8,2727.8,21
+2024-05-27,Memorial Day BBQ,holiday,Metro City,1.470782537473398,"Meat,Beverages,Bakery,Snacks",2301.5,278.6,9924.03,32
+2024-05-27,Memorial Day BBQ,holiday,Green Valley,1.5830192159895673,"Meat,Beverages,Bakery,Snacks",1878.2,204.7,7817.44,27
+2024-05-27,Memorial Day BBQ,holiday,Harbor Town,1.546046900137123,"Meat,Beverages,Bakery,Snacks",2334.6,258.9,10582.99,31
+2024-06-14,Cold Snap,weather_event,Green Valley,1.317407665893001,"Pantry,Dairy,Bakery",1967.3,216.4,4876.3,34
+2024-06-16,Father's Day,holiday,Metro City,1.1905029071318531,"Meat,Beverages,Snacks",7373.9,677.9,26492.72,69
+2024-06-16,Father's Day,holiday,Green Valley,1.1628715277101929,"Meat,Beverages,Snacks",1629.1,202.0,7210.05,25
+2024-06-16,Father's Day,holiday,Harbor Town,1.3183752696898396,"Meat,Beverages,Snacks",5339.7,668.5,19254.52,39
+2024-06-16,Marathon Weekend,sports,Harbor Town,1.308632777686405,"Beverages,Fruits,Snacks",5339.7,668.5,19254.52,39
+2024-06-16,Back to School,seasonal,Metro City,1.3677278336007945,"Pantry,Snacks,Bakery,Dairy",7373.9,677.9,26492.72,69
+2024-06-22,Local Food Festival,local_event,Green Valley,1.5922967568370028,"Fruits,Vegetables,Deli,Bakery",6434.3,1047.4,16844.02,48
+2024-06-23,Charity Food Drive,local_event,Harbor Town,0.8375707055330502,"Pantry,Canned",986.7,8.7,2063.12,17
+2024-07-04,Independence Day,holiday,Metro City,1.64669139176431,"Meat,Beverages,Snacks,Bakery,Frozen",5021.2,611.7,21106.67,36
+2024-07-04,Independence Day,holiday,Green Valley,1.7362956955916677,"Meat,Beverages,Snacks,Bakery,Frozen",2094.2,172.5,10065.96,27
+2024-07-04,Independence Day,holiday,Harbor Town,1.6997609947882286,"Meat,Beverages,Snacks,Bakery,Frozen",3720.6,266.0,15884.94,38
+2024-07-12,Local Food Festival,local_event,Green Valley,1.6084381578695959,"Fruits,Vegetables,Deli,Bakery",3640.3,488.1,8803.03,43
+2024-07-15,Farmers Market Week,local_event,Harbor Town,1.5721364376013733,"Fruits,Vegetables",3240.3,494.2,7433.08,35
+2024-07-18,Heat Wave Alert,weather_event,Harbor Town,1.5092875574492397,"Beverages,Frozen,Fruits",2755.7,227.4,7915.4,27
+2024-07-19,Summer Concert Series,local_event,Metro City,1.4726734451549168,"Beverages,Snacks",1622.3,163.6,4383.95,10
+2024-07-24,Heat Wave Alert,weather_event,Green Valley,1.3911704381140506,"Beverages,Frozen,Fruits",1652.2,176.3,4849.08,23
+2024-08-07,Cold Snap,weather_event,Green Valley,1.1823159187257195,"Pantry,Dairy,Bakery",1181.9,84.3,3056.2,24
+2024-08-15,Summer Concert Series,local_event,Metro City,1.3658544703041093,"Beverages,Snacks",1262.0,129.3,3565.45,13
+2024-08-18,Back to School,seasonal,Metro City,1.3684356676719407,"Pantry,Snacks,Bakery,Dairy",4868.4,427.9,13479.53,41
+2024-08-22,Summer Concert Series,local_event,Green Valley,1.159031608789384,"Beverages,Snacks",481.7,17.8,1479.3,13
+2024-09-02,Labor Day,holiday,Metro City,1.462478305176026,"Meat,Beverages,Snacks",2088.0,219.0,9889.85,23
+2024-09-02,Labor Day,holiday,Green Valley,1.5591314520064714,"Meat,Beverages,Snacks",1248.0,140.2,6320.3,19
+2024-09-02,Labor Day,holiday,Harbor Town,1.481208178533338,"Meat,Beverages,Snacks",1189.9,120.5,5568.25,22
+2024-09-02,Summer Concert Series,local_event,Green Valley,1.3325774737585734,"Beverages,Snacks",1248.0,140.2,6320.3,19
+2024-09-21,College Football Game,sports,Green Valley,1.4930795268980495,"Snacks,Beverages,Frozen",1503.7,63.9,5280.3,18
+2024-10-16,Restaurant Week,local_event,Metro City,1.1357790485769061,"Meat,Seafood,Vegetables",3091.5,508.9,11543.14,42
+2024-10-18,Summer Concert Series,local_event,Green Valley,1.222034708331393,"Beverages,Snacks",660.4,30.6,2273.1,16
+2024-10-18,Spring Break,seasonal,Green Valley,1.0534758632116266,"Snacks,Beverages,Frozen",660.4,30.6,2273.1,16
+2024-10-20,Neighborhood Block Party,local_event,Green Valley,1.4541756484464812,"Snacks,Beverages,Bakery,Meat",2936.7,349.4,11338.84,32
+2024-10-26,Farmers Market Week,local_event,Green Valley,1.5547084752381948,"Fruits,Vegetables",3597.3,554.8,9319.48,35
+2024-10-31,Halloween,holiday,Metro City,1.4256507036896728,"Snacks,Bakery,Beverages",1810.1,176.8,6151.59,20
+2024-10-31,Halloween,holiday,Green Valley,1.4206937511229882,"Snacks,Bakery,Beverages",1031.7,73.7,3610.8,18
+2024-10-31,Halloween,holiday,Harbor Town,1.5222156914602476,"Snacks,Bakery,Beverages",1274.0,138.3,4641.24,19
+2024-11-01,Farmers Market Week,local_event,Harbor Town,1.4958283323490567,"Fruits,Vegetables",2773.3,437.0,6220.69,30
+2024-11-05,Local Food Festival,local_event,Harbor Town,1.5728649654458942,"Fruits,Vegetables,Deli,Bakery",5498.0,920.4,14278.78,57
+2024-11-09,Local Food Festival,local_event,Harbor Town,1.5102858396006902,"Fruits,Vegetables,Deli,Bakery",5471.0,958.8,13894.03,54
+2024-11-14,Heat Wave Alert,weather_event,Green Valley,1.4648888051963136,"Beverages,Frozen,Fruits",1169.5,164.5,3567.81,23
+2024-11-16,Local Food Festival,local_event,Green Valley,1.6002030663923412,"Fruits,Vegetables,Deli,Bakery",5556.0,685.6,14625.75,60
+2024-11-16,Marathon Weekend,sports,Green Valley,1.222679324241732,"Beverages,Fruits,Snacks",5556.0,685.6,14625.75,60
+2024-11-28,Thanksgiving,holiday,Metro City,1.9044896164525027,"Meat,Vegetables,Bakery,Dairy,Fruits",10211.0,1597.5,33016.35,68
+2024-11-28,Thanksgiving,holiday,Green Valley,2.011308342142486,"Meat,Vegetables,Bakery,Dairy,Fruits",7831.6,1337.3,23621.56,69
+2024-11-28,Thanksgiving,holiday,Harbor Town,1.952957020630128,"Meat,Vegetables,Bakery,Dairy,Fruits",6331.1,989.1,19567.89,60
+2024-12-07,Charity Food Drive,local_event,Metro City,0.8501627149500235,"Pantry,Canned",2007.5,14.0,5067.53,19
+2024-12-11,Cold Snap,weather_event,Green Valley,1.4186754209449444,"Pantry,Dairy,Bakery",2866.5,259.5,7144.49,39
+2024-12-17,College Football Game,sports,Harbor Town,1.450342372238702,"Snacks,Beverages,Frozen",1039.9,18.6,3735.5,21
+2024-12-18,Heat Wave Alert,weather_event,Green Valley,1.7127047391889423,"Beverages,Frozen,Fruits",1580.4,227.7,4992.51,27
+2024-12-22,Restaurant Week,local_event,Green Valley,0.7708899129411598,"Meat,Seafood,Vegetables",1550.1,246.5,5187.61,30
+2024-12-24,Marathon Weekend,sports,Green Valley,1.242694160497992,"Beverages,Fruits,Snacks",791.0,80.7,2765.07,21
+2024-12-25,Christmas,holiday,Metro City,1.8423610426068144,"Meat,Bakery,Dairy,Beverages,Snacks,Fruits",7069.2,838.0,23874.97,52
+2024-12-25,Christmas,holiday,Green Valley,1.8143263883157226,"Meat,Bakery,Dairy,Beverages,Snacks,Fruits",4294.7,526.3,16111.19,53
+2024-12-25,Christmas,holiday,Harbor Town,1.7881392265462723,"Meat,Bakery,Dairy,Beverages,Snacks,Fruits",4351.1,655.7,14400.56,52
+2024-12-26,Cold Snap,weather_event,Green Valley,1.3045044646644537,"Pantry,Dairy,Bakery",4371.5,319.0,12107.74,41
+2025-01-01,New Year's Day,holiday,Metro City,1.5198624594218113,"Beverages,Snacks,Meat",1462.9,134.9,6571.45,19
+2025-01-01,New Year's Day,holiday,Green Valley,1.3922995086723293,"Beverages,Snacks,Meat",1178.7,131.5,5411.35,20
+2025-01-01,New Year's Day,holiday,Harbor Town,1.527384092630543,"Beverages,Snacks,Meat",1201.0,121.1,6788.3,20
+2025-01-07,Farmers Market Week,local_event,Green Valley,1.496274873680917,"Fruits,Vegetables",2591.2,360.2,5681.75,33
+2025-01-15,Local Food Festival,local_event,Harbor Town,1.585003339331586,"Fruits,Vegetables,Deli,Bakery",3645.7,603.1,9915.75,50
+2025-01-15,Back to School,seasonal,Metro City,1.2969397466037835,"Pantry,Snacks,Bakery,Dairy",4725.8,407.3,12785.36,42
+2025-01-20,Summer Concert Series,local_event,Harbor Town,1.4233569119542993,"Beverages,Snacks",480.4,21.2,1471.25,12
+2025-01-22,Charity Food Drive,local_event,Harbor Town,0.9766729028723418,"Pantry,Canned",1418.5,12.4,3318.86,21
+2025-01-23,Heat Wave Alert,weather_event,Metro City,1.4866785279034391,"Beverages,Frozen,Fruits",2270.2,233.2,6431.04,32
+2025-02-07,Summer Concert Series,local_event,Harbor Town,1.4132670806526633,"Beverages,Snacks",817.5,36.2,2556.4,15
+2025-02-09,Super Bowl Sunday,sports,Metro City,1.8060216962093278,"Snacks,Beverages,Frozen,Deli",2594.6,248.4,10609.62,26
+2025-02-09,Super Bowl Sunday,sports,Green Valley,1.77891521176469,"Snacks,Beverages,Frozen,Deli",2492.7,140.6,9505.15,31
+2025-02-09,Super Bowl Sunday,sports,Harbor Town,1.9219774539945935,"Snacks,Beverages,Frozen,Deli",2137.0,113.0,8301.56,23
+2025-02-14,Valentine's Day,holiday,Metro City,1.2701043620992538,"Bakery,Snacks,Beverages",1509.9,142.6,5111.27,21
+2025-02-14,Valentine's Day,holiday,Green Valley,1.297239922966286,"Bakery,Snacks,Beverages",715.3,70.7,2379.3,15
+2025-02-14,Valentine's Day,holiday,Harbor Town,1.2540649386405647,"Bakery,Snacks,Beverages",865.2,81.6,2699.63,17
+2025-02-17,Neighborhood Block Party,local_event,Metro City,1.4962032890880372,"Snacks,Beverages,Bakery,Meat",2941.9,392.0,11653.08,32
+2025-02-23,Restaurant Week,local_event,Metro City,0.8603241371437427,"Meat,Seafood,Vegetables",3889.6,654.4,12828.29,44
+2025-02-24,Back to School,seasonal,Harbor Town,1.2681941835688202,"Pantry,Snacks,Bakery,Dairy",2559.9,235.8,7070.2,43
+2025-02-25,College Football Game,sports,Green Valley,1.4103627884027463,"Snacks,Beverages,Frozen",479.2,13.6,1968.45,11
+2025-02-25,Cold Snap,weather_event,Metro City,1.4636218348227639,"Pantry,Dairy,Bakery",5550.1,515.9,15299.17,42
+2025-02-26,Cold Snap,weather_event,Metro City,1.200427989828846,"Pantry,Dairy,Bakery",3478.0,306.6,9215.56,38
+2025-03-09,College Football Game,sports,Metro City,1.3189144367402377,"Snacks,Beverages,Frozen",1918.8,88.7,6866.65,16
+2025-03-12,Restaurant Week,local_event,Green Valley,0.6485358014923557,"Meat,Seafood,Vegetables",1899.7,280.2,6700.25,36
+2025-03-14,Marathon Weekend,sports,Harbor Town,1.2038435856448921,"Beverages,Fruits,Snacks",2622.9,343.9,7557.64,32
+2025-03-17,St. Patrick's Day,holiday,Metro City,1.2428855265266983,"Beverages,Snacks",965.2,43.3,2730.5,15
+2025-03-17,St. Patrick's Day,holiday,Green Valley,1.235490947825854,"Beverages,Snacks",792.1,14.8,2316.1,14
+2025-03-17,St. Patrick's Day,holiday,Harbor Town,1.2141302437099015,"Beverages,Snacks",558.5,40.8,1773.55,11
+2025-03-20,Summer Concert Series,local_event,Green Valley,1.0325838178076776,"Beverages,Snacks",423.5,46.8,1463.95,12
+2025-04-17,Restaurant Week,local_event,Metro City,0.7970909661011046,"Meat,Seafood,Vegetables",3071.9,419.1,9896.76,39
+2025-04-20,Easter,holiday,Metro City,1.3995575607694708,"Bakery,Meat,Dairy,Vegetables",7231.3,1282.8,20852.8,49
+2025-04-20,Easter,holiday,Green Valley,1.408196949958194,"Bakery,Meat,Dairy,Vegetables",4158.2,633.3,12643.19,48
+2025-04-20,Easter,holiday,Harbor Town,1.4744085455150682,"Bakery,Meat,Dairy,Vegetables",5125.3,738.6,15736.23,45
+2025-04-27,Charity Food Drive,local_event,Harbor Town,0.8052493203344985,"Pantry,Canned",815.1,13.6,2240.57,18
+2025-05-05,Farmers Market Week,local_event,Green Valley,1.7322022573159677,"Fruits,Vegetables",2978.5,461.9,6463.41,33
+2025-05-11,Mother's Day,holiday,Metro City,1.3013575492633116,"Bakery,Fruits,Beverages",5478.2,848.6,16401.76,33
+2025-05-11,Mother's Day,holiday,Green Valley,1.307041208909131,"Bakery,Fruits,Beverages",3481.6,484.5,10402.17,31
+2025-05-11,Mother's Day,holiday,Harbor Town,1.158946708808469,"Bakery,Fruits,Beverages",2877.7,378.4,9063.71,31
+2025-05-17,Neighborhood Block Party,local_event,Metro City,1.3498626870486894,"Snacks,Beverages,Bakery,Meat",4205.7,504.2,18683.55,36
+2025-05-19,Summer Concert Series,local_event,Metro City,1.3100149615277683,"Beverages,Snacks",1013.2,71.8,2932.6,14
+2025-05-26,Memorial Day BBQ,holiday,Metro City,1.5595669810571744,"Meat,Beverages,Bakery,Snacks",3229.0,343.8,13689.75,30
+2025-05-26,Memorial Day BBQ,holiday,Green Valley,1.6510486412718481,"Meat,Beverages,Bakery,Snacks",1840.1,196.4,7488.58,28
+2025-05-26,Memorial Day BBQ,holiday,Harbor Town,1.6469975810627557,"Meat,Beverages,Bakery,Snacks",1927.2,253.0,8020.55,28
+2025-06-11,Spring Break,seasonal,Harbor Town,1.1288258003527192,"Snacks,Beverages,Frozen",1616.4,77.5,5775.75,19
+2025-06-15,Father's Day,holiday,Metro City,1.1807003158235874,"Meat,Beverages,Snacks",2446.6,265.3,10386.2,21
+2025-06-15,Father's Day,holiday,Green Valley,1.2575538766085952,"Meat,Beverages,Snacks",2243.4,340.2,9458.0,28
+2025-06-15,Father's Day,holiday,Harbor Town,1.154067459638764,"Meat,Beverages,Snacks",1740.7,160.9,6908.8,20
+2025-06-15,Neighborhood Block Party,local_event,Green Valley,1.4620141233204542,"Snacks,Beverages,Bakery,Meat",2243.4,340.2,9458.0,28
+2025-06-17,College Football Game,sports,Harbor Town,1.3733177536185732,"Snacks,Beverages,Frozen",1535.5,82.4,4908.2,16
+2025-06-19,Local Food Festival,local_event,Harbor Town,1.4805496561586533,"Fruits,Vegetables,Deli,Bakery",4382.3,582.7,12020.34,52
+2025-06-20,Charity Food Drive,local_event,Metro City,1.0516591542974654,"Pantry,Canned",1120.6,12.7,2641.37,20
+2025-06-27,Heat Wave Alert,weather_event,Green Valley,1.7667835489866923,"Beverages,Frozen,Fruits",3092.7,485.5,9563.73,29
+2025-07-03,Cold Snap,weather_event,Green Valley,1.285905908087558,"Pantry,Dairy,Bakery",2191.7,165.9,6006.64,36
+2025-07-04,Independence Day,holiday,Metro City,1.7559463681650773,"Meat,Beverages,Snacks,Bakery,Frozen",5286.3,617.8,20225.98,40
+2025-07-04,Independence Day,holiday,Green Valley,1.6844210829522197,"Meat,Beverages,Snacks,Bakery,Frozen",2905.3,319.3,14132.64,34
+2025-07-04,Independence Day,holiday,Harbor Town,1.7000061675669775,"Meat,Beverages,Snacks,Bakery,Frozen",3223.7,289.9,13830.38,32
+2025-07-09,Farmers Market Week,local_event,Harbor Town,1.6956543927582772,"Fruits,Vegetables",3511.8,569.8,8270.32,34
+2025-07-15,Heat Wave Alert,weather_event,Metro City,1.6718532272364903,"Beverages,Frozen,Fruits",5942.4,608.8,17557.0,33
+2025-07-21,Back to School,seasonal,Harbor Town,1.2900127995024036,"Pantry,Snacks,Bakery,Dairy",1891.8,122.8,5059.06,40
+2025-08-22,College Football Game,sports,Harbor Town,1.2344824740883453,"Snacks,Beverages,Frozen",1226.5,64.4,4011.35,19
+2025-08-23,Back to School,seasonal,Metro City,1.4843762924934198,"Pantry,Snacks,Bakery,Dairy",4247.0,280.1,11346.16,38
+2025-08-23,Spring Break,seasonal,Green Valley,1.2642989487823297,"Snacks,Beverages,Frozen",949.7,19.7,3548.0,17
+2025-09-01,Labor Day,holiday,Metro City,1.5018608736174839,"Meat,Beverages,Snacks",1566.3,176.5,7423.95,22
+2025-09-01,Labor Day,holiday,Green Valley,1.5228687530694063,"Meat,Beverages,Snacks",1280.2,126.7,5786.8,20
+2025-09-01,Labor Day,holiday,Harbor Town,1.4369136497194361,"Meat,Beverages,Snacks",1816.8,138.9,8980.5,22
+2025-09-14,College Football Game,sports,Metro City,1.5397499054740298,"Snacks,Beverages,Frozen",2248.7,60.1,7318.7,16
+2025-09-14,Spring Break,seasonal,Harbor Town,1.2544325168000734,"Snacks,Beverages,Frozen",1665.4,72.1,5064.8,22
+2025-09-16,Farmers Market Week,local_event,Harbor Town,1.5553001192403106,"Fruits,Vegetables",3315.6,486.4,8398.0,40
+2025-09-25,Heat Wave Alert,weather_event,Harbor Town,1.454693451065382,"Beverages,Frozen,Fruits",2119.7,272.1,7076.61,28
+2025-10-03,Restaurant Week,local_event,Metro City,0.892741728206143,"Meat,Seafood,Vegetables",3012.1,406.8,10219.97,41
+2025-10-04,Restaurant Week,local_event,Harbor Town,0.9720722522079448,"Meat,Seafood,Vegetables",2576.9,416.8,9624.03,35
+2025-10-05,Local Food Festival,local_event,Metro City,1.424865250736295,"Fruits,Vegetables,Deli,Bakery",8083.2,1269.1,21380.7,61
+2025-10-31,Halloween,holiday,Metro City,1.410582406171243,"Snacks,Bakery,Beverages",2539.9,278.2,7998.77,24
+2025-10-31,Halloween,holiday,Green Valley,1.5059861575978108,"Snacks,Bakery,Beverages",1697.8,135.5,5664.3,19
+2025-10-31,Halloween,holiday,Harbor Town,1.383420125329816,"Snacks,Bakery,Beverages",1784.2,155.5,5430.3,24
+2025-11-10,Summer Concert Series,local_event,Metro City,1.4382137253091594,"Beverages,Snacks",516.3,30.4,1969.45,10
+2025-11-11,Farmers Market Week,local_event,Metro City,1.7813297226648057,"Fruits,Vegetables",5026.8,757.9,11612.34,38
+2025-11-27,Thanksgiving,holiday,Metro City,1.9897057235844473,"Meat,Vegetables,Bakery,Dairy,Fruits",11172.1,1513.2,34419.72,68
+2025-11-27,Thanksgiving,holiday,Green Valley,1.906082730293138,"Meat,Vegetables,Bakery,Dairy,Fruits",6034.4,850.3,19879.3,64
+2025-11-27,Thanksgiving,holiday,Harbor Town,2.0357948857530594,"Meat,Vegetables,Bakery,Dairy,Fruits",9719.4,1366.6,30100.34,71
+2025-12-08,Heat Wave Alert,weather_event,Harbor Town,1.398506128212168,"Beverages,Frozen,Fruits",1256.7,146.9,3672.77,26
+2025-12-15,Charity Food Drive,local_event,Metro City,0.9322772472753281,"Pantry,Canned",952.8,11.1,2111.91,17
+2025-12-22,Marathon Weekend,sports,Harbor Town,1.359422519771039,"Beverages,Fruits,Snacks",1367.7,136.2,4184.22,28
+2025-12-25,Christmas,holiday,Metro City,1.9000836988606176,"Meat,Bakery,Dairy,Beverages,Snacks,Fruits",9070.6,1291.6,29714.1,60
+2025-12-25,Christmas,holiday,Green Valley,1.8141130780783774,"Meat,Bakery,Dairy,Beverages,Snacks,Fruits",5382.2,841.4,18678.47,59
+2025-12-25,Christmas,holiday,Harbor Town,1.759754296519101,"Meat,Bakery,Dairy,Beverages,Snacks,Fruits",5417.0,704.3,17298.89,50
+2025-12-28,Neighborhood Block Party,local_event,Metro City,1.2752064852403964,"Snacks,Beverages,Bakery,Meat",4005.7,456.4,15964.17,32

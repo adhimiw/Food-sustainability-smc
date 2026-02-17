@@ -1,0 +1,96 @@
+{
+  "title": "FoodFlow AI \u2014 Food Waste Supply Chain Dataset",
+  "id": "your-kaggle-username/foodflow-food-waste-supply-chain",
+  "subtitle": "2-year synthetic food retail dataset for demand forecasting & waste reduction",
+  "description": "Realistic synthetic dataset simulating 2 years (2024-2025) of food retail supply chain operations across 3 cities, 15 locations, 148 products, and 400K+ transactions. Includes weather, events, inventory expiry tracking, and CO\u2082 footprint data. Built for demand prediction, waste cascade optimization, and route planning ML tasks.\n\nGenerated with random seed: 77777\n\n### Raw Tables\n- **products**: 148 rows\n- **stores**: 15 rows\n- **suppliers**: 20 rows\n- **supplier_products**: 512 rows\n- **weather**: 2,193 rows\n- **events**: 175 rows\n- **sales**: 401,726 rows\n- **inventory**: 16,882 rows\n\n### Analytics Views\n- daily_store_sales, product_waste_analysis, weekly_category_trends\n- store_performance, weather_impact, perishable_risk_matrix\n- monthly_waste_by_category, event_impact_analysis\n- carbon_footprint_summary, demand_forecasting_features",
+  "isPrivate": false,
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "food waste",
+    "supply chain",
+    "demand forecasting",
+    "sustainability",
+    "carbon footprint",
+    "retail analytics",
+    "time series",
+    "inventory management"
+  ],
+  "resources": [
+    {
+      "path": "raw/events.csv",
+      "description": "Events"
+    },
+    {
+      "path": "raw/inventory.csv",
+      "description": "Inventory"
+    },
+    {
+      "path": "raw/products.csv",
+      "description": "Products"
+    },
+    {
+      "path": "raw/sales.csv",
+      "description": "Sales"
+    },
+    {
+      "path": "raw/stores.csv",
+      "description": "Stores"
+    },
+    {
+      "path": "raw/supplier_products.csv",
+      "description": "Supplier Products"
+    },
+    {
+      "path": "raw/suppliers.csv",
+      "description": "Suppliers"
+    },
+    {
+      "path": "raw/weather.csv",
+      "description": "Weather"
+    },
+    {
+      "path": "analytics/carbon_footprint_summary.csv",
+      "description": "Carbon Footprint Summary"
+    },
+    {
+      "path": "analytics/daily_store_sales.csv",
+      "description": "Daily Store Sales"
+    },
+    {
+      "path": "analytics/demand_forecasting_features.csv",
+      "description": "Demand Forecasting Features"
+    },
+    {
+      "path": "analytics/event_impact_analysis.csv",
+      "description": "Event Impact Analysis"
+    },
+    {
+      "path": "analytics/monthly_waste_by_category.csv",
+      "description": "Monthly Waste By Category"
+    },
+    {
+      "path": "analytics/perishable_risk_matrix.csv",
+      "description": "Perishable Risk Matrix"
+    },
+    {
+      "path": "analytics/product_waste_analysis.csv",
+      "description": "Product Waste Analysis"
+    },
+    {
+      "path": "analytics/store_performance.csv",
+      "description": "Store Performance"
+    },
+    {
+      "path": "analytics/weather_impact.csv",
+      "description": "Weather Impact"
+    },
+    {
+      "path": "analytics/weekly_category_trends.csv",
+      "description": "Weekly Category Trends"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+streamlit
+pandas
+duckdb
+numpy
+scikit-learn
+xgboost
+ortools
+plotly
+folium
+streamlit-folium
+altair
+requests
+pydantic
+httpx
