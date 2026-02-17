@@ -14,12 +14,15 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
 from mistralai import Mistral
+from dotenv import load_dotenv
 from utils.knowledge_base import (
     build_knowledge_text,
     build_knowledge_base,
     run_custom_query,
 )
 from database.db import query_df, query_scalar
+
+load_dotenv()
 
 # ── Page Config ──
 st.set_page_config(
@@ -30,8 +33,8 @@ st.set_page_config(
 )
 
 # ── Constants ──
-MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "y3XeTHNpis5rOvfu6DSNMjcBEijTmrfX")
-MODEL = "mistral-small-latest"
+MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "").strip()
+MODEL = os.environ.get("MISTRAL_MODEL", "mistral-large-2512").strip()
 
 # ── 20 Pre-built Questions ──
 PREBUILT_QUESTIONS = [
@@ -358,6 +361,11 @@ st.markdown("""
     <p>Ask anything about food waste, demand forecasting, carbon impact & more — with live visualizations</p>
 </div>
 """, unsafe_allow_html=True)
+
+if not MISTRAL_API_KEY:
+    st.error("Missing MISTRAL_API_KEY. Set it in your environment before using the chatbot.")
+    st.info("Example: export MISTRAL_API_KEY=your_key_here")
+    st.stop()
 
 # ── Initialize session state ──
 if "chat_messages" not in st.session_state:

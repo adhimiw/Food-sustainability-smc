@@ -25,8 +25,12 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "y3XeTHNpis5rOvfu6DSNMjcBEijTmrfX")
-MODEL = "mistral-small-latest"
+MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "").strip()
+MODEL = os.environ.get("MISTRAL_MODEL", "mistral-large-2512").strip()
+METABASE_URL = os.environ.get("METABASE_URL", "http://localhost:3000").strip()
+METABASE_DASHBOARD_ID = int(os.environ.get("METABASE_DASHBOARD_ID", "2"))
+METABASE_USERNAME = os.environ.get("METABASE_USERNAME", "").strip()
+METABASE_PASSWORD = os.environ.get("METABASE_PASSWORD", "").strip()
 
 # ── Dark theme CSS ──
 st.markdown("""
@@ -69,6 +73,11 @@ st.markdown("""
     <p>AI-powered analysis engine • Generates insights, reports & recommendations on demand</p>
 </div>
 """, unsafe_allow_html=True)
+
+if not MISTRAL_API_KEY:
+    st.error("Missing MISTRAL_API_KEY. Set it in your environment before using Agentic Dashboard.")
+    st.info("Example: export MISTRAL_API_KEY=your_key_here")
+    st.stop()
 
 
 # ── Helper: Mistral call ──
@@ -510,9 +519,6 @@ elif agent_mode == "📈 Metabase Analytics":
     powered by DuckDB. Click below to open it, or run custom queries directly.
     """)
 
-    METABASE_URL = "http://localhost:3000"
-    METABASE_DASHBOARD_ID = 2
-
     # Link to dashboard
     st.markdown(f"""
     <div style="background: #16213e; padding: 20px; border-radius: 12px; border: 1px solid #0f3460; margin-bottom: 20px;">
@@ -566,9 +572,12 @@ elif agent_mode == "📈 Metabase Analytics":
                 import urllib.request
 
                 # Authenticate with Metabase
+                if not METABASE_USERNAME or not METABASE_PASSWORD:
+                    raise RuntimeError("Missing METABASE_USERNAME / METABASE_PASSWORD environment variables")
+
                 auth_data = json.dumps({
-                    "username": "adhithanraja6@gmail.com",
-                    "password": "idlypoDa@12"
+                    "username": METABASE_USERNAME,
+                    "password": METABASE_PASSWORD
                 }).encode()
                 auth_req = urllib.request.Request(
                     f"{METABASE_URL}/api/session",

@@ -8,6 +8,7 @@ dependencies = [
     "altair>=6.0.0",
     "duckdb>=1.4.0",
     "fastapi>=0.128.8",
+    "fastmcp>=2.14.5",
     "folium>=0.20.0",
     "httpx>=0.28.1",
     "mistralai>=1.12.1",

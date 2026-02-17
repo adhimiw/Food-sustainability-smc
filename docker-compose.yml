@@ -1,0 +1,37 @@
+# /home/adhithan/.openclaw/workspace/Food-sustainability-smc/docker-compose.yml
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: foodflow-app
+    ports:
+      - "8501:8501"
+      - "8000:8000"
+    env_file: .env
+    volumes:
+      - project_data:/app/data
+    depends_on:
+      - mcp
+
+  mcp:
+    build: .
+    container_name: foodflow-mcp
+    command: uv run python mcp/project_context_server.py
+    env_file: .env
+    volumes:
+      - project_data:/app/data
+
+  metabase:
+    image: metabase/metabase:latest
+    container_name: foodflow-metabase
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./metabase-plugins:/plugins
+      - project_data:/project-data
+    environment:
+      - MB_PLUGINS_DIR=/plugins
+
+volumes:
+  project_data:

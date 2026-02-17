@@ -17,11 +17,18 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
 from mistralai import Mistral
+from dotenv import load_dotenv
 from utils.knowledge_base import build_knowledge_base, build_knowledge_text
 from database.db import query_df, query_scalar
 
-MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "y3XeTHNpis5rOvfu6DSNMjcBEijTmrfX")
-MODEL = "mistral-small-latest"
+load_dotenv()
+
+MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "").strip()
+MODEL = os.environ.get("MISTRAL_MODEL", "mistral-large-2512").strip()
+METABASE_URL = os.environ.get("METABASE_URL", "http://localhost:3000").strip()
+METABASE_DASHBOARD_ID = int(os.environ.get("METABASE_DASHBOARD_ID", "2"))
+METABASE_USERNAME = os.environ.get("METABASE_USERNAME", "").strip()
+METABASE_PASSWORD = os.environ.get("METABASE_PASSWORD", "").strip()
 
 # ── Dark theme CSS ──
 st.markdown("""
@@ -68,6 +75,11 @@ st.markdown("""
     <p>AI-powered analysis engine • Generates insights, reports & recommendations on demand</p>
 </div>
 """, unsafe_allow_html=True)
+
+if not MISTRAL_API_KEY:
+    st.error("Missing MISTRAL_API_KEY. Set it in your environment before using Agentic Dashboard.")
+    st.info("Example: export MISTRAL_API_KEY=your_key_here")
+    st.stop()
 
 
 # ── Helper: Mistral call ──
@@ -477,18 +489,18 @@ elif agent_mode == "📈 Metabase Analytics":
     powered by DuckDB. Includes MCP (Model Context Protocol) integration for programmatic access.
     """)
 
-    METABASE_URL = "http://localhost:3000"
-    METABASE_DASHBOARD_ID = 2
-
     # Helper for Metabase API calls
     def metabase_api_call(endpoint: str, method: str = "GET", data: dict = None) -> dict:
         """Make authenticated Metabase API call."""
         import urllib.request
         try:
+            if not METABASE_USERNAME or not METABASE_PASSWORD:
+                return {"error": "Missing METABASE_USERNAME / METABASE_PASSWORD environment variables"}
+
             # Auth
             auth_data = json.dumps({
-                "username": "adhithanraja6@gmail.com",
-                "password": "idlypoDa@12"
+                "username": METABASE_USERNAME,
+                "password": METABASE_PASSWORD
             }).encode()
             auth_req = urllib.request.Request(
                 f"{METABASE_URL}/api/session",

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "foodflow_project": {
+      "command": "uv",
+      "args": [
+        "run",
+        "python",
+        "../mcp/project_context_server.py"
+      ],
+      "description": "FoodFlow project-context MCP server (stdio)"
+    }
+  },
+  "imports": []
+}

@@ -11,11 +11,13 @@ set_page_db("chatbot")
 
 import streamlit as st
 import json
+import subprocess
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
 from mistralai import Mistral
+from dotenv import load_dotenv
 from utils.knowledge_base import (
     build_knowledge_text,
     build_knowledge_base,
@@ -23,9 +25,45 @@ from utils.knowledge_base import (
 )
 from database.db import query_df, query_scalar
 
-# ── Constants ──
-MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "y3XeTHNpis5rOvfu6DSNMjcBEijTmrfX")
-MODEL = "mistral-small-latest"
+load_dotenv()
+
+# ── Runtime Config ──
+MISTRAL_API_KEY = os.environ.get("MISTRAL_API_KEY", "").strip()
+MODEL = os.environ.get("MISTRAL_MODEL", "mistral-large-2512").strip()
+MCP_STDIO_COMMAND = os.environ.get(
+    "FOODFLOW_MCP_STDIO_COMMAND",
+    "uv run python mcp/project_context_server.py"
+).strip()
+MCP_CALL_TIMEOUT_SEC = int(os.environ.get("FOODFLOW_MCP_TIMEOUT_SEC", "30"))
+
+
+def call_project_mcp(tool_name: str, args: dict) -> str:
+    """Call the project-scoped MCP server through mcporter (stdio transport)."""
+    try:
+        cmd = [
+            "mcporter",
+            "call",
+            "--stdio",
+            MCP_STDIO_COMMAND,
+            tool_name,
+            "--args",
+            json.dumps(args),
+            "--output",
+            "json",
+        ]
+        proc = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=MCP_CALL_TIMEOUT_SEC,
+            cwd=os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        )
+        if proc.returncode != 0:
+            return f"MCP call failed: {proc.stderr.strip() or proc.stdout.strip()}"
+        return proc.stdout.strip()
+    except Exception as e:
+        return f"MCP call error: {e}"
+
 
 # ── 20 Pre-built Questions ──
 PREBUILT_QUESTIONS = [
@@ -195,6 +233,23 @@ TOOLS = [
                 "required": ["theme"]
             }
         }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "query_project_mcp",
+            "description": "Query the project-scoped MCP server for context or curated project analysis.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "question": {
+                        "type": "string",
+                        "description": "Project question to ask the MCP context server"
+                    }
+                },
+                "required": ["question"]
+            }
+        }
     }
 ]
 
@@ -212,6 +267,9 @@ def execute_tool_call(tool_name: str, args: dict) -> str:
     elif tool_name == "get_themed_analysis":
         theme = args.get("theme", "")
         return run_custom_query(theme)
+    elif tool_name == "query_project_mcp":
+        question = args.get("question", "")
+        return call_project_mcp("query_project_context", {"question": question})
     return "Unknown tool."
 
 
@@ -348,6 +406,11 @@ st.markdown("""
     <p>Ask anything about food waste, demand forecasting, carbon impact & more — with live visualizations</p>
 </div>
 """, unsafe_allow_html=True)
+
+if not MISTRAL_API_KEY:
+    st.error("Missing MISTRAL_API_KEY. Set it in your environment before using the chatbot.")
+    st.info("Example: export MISTRAL_API_KEY=your_key_here")
+    st.stop()
 
 # ── Initialize session state ──
 if "chat_messages" not in st.session_state:
